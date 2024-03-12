@@ -975,6 +975,49 @@
         )
       )
     )
+    (symbol "Regulator_Linear:L7805" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -3.81 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "L7805" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.635 -3.81 0)
+        (effects (font (size 1.27 1.27) italic) (justify left) hide)
+      )
+      (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "Voltage Regulator 1.5A Positive" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO?252* TO?263* TO?220*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "L7805_0_1"
+        (rectangle (start -5.08 1.905) (end 5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "L7805_1_1"
+        (pin power_in line (at -7.62 0 0) (length 2.54)
+          (name "IN" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -7.62 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at 7.62 0 180) (length 2.54)
+          (name "OUT" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Regulator_Linear:NCP1117-3.3_SOT223" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
@@ -1739,6 +1782,9 @@
   (junction (at 394.97 147.32) (diameter 0) (color 0 0 0 0)
     (uuid 11e819c6-ff02-4e1a-9791-15eac397d486)
   )
+  (junction (at 264.16 134.62) (diameter 0) (color 0 0 0 0)
+    (uuid 179ad0d7-429c-46a6-b12e-d9213fcafed9)
+  )
   (junction (at 433.07 147.32) (diameter 0) (color 0 0 0 0)
     (uuid 18a76bb8-9946-4029-86f2-704bc5498b9e)
   )
@@ -1769,6 +1815,9 @@
   (junction (at 427.99 137.16) (diameter 0) (color 0 0 0 0)
     (uuid 41a74aac-18ef-4b80-bd26-e3c28c311ceb)
   )
+  (junction (at 274.32 134.62) (diameter 0) (color 0 0 0 0)
+    (uuid 429aa911-c7ec-492d-b3d5-886dfff6b588)
+  )
   (junction (at 313.69 137.16) (diameter 0) (color 0 0 0 0)
     (uuid 4326cf41-f07c-44eb-a3d5-cf41a2468dfe)
   )
@@ -1780,6 +1829,9 @@
   )
   (junction (at 86.36 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 550ee22e-99ce-45fd-9c3c-1722a45fa823)
+  )
+  (junction (at 231.14 134.62) (diameter 0) (color 0 0 0 0)
+    (uuid 5d8d2501-f859-4e8a-997c-c7c55a501f8b)
   )
   (junction (at 231.14 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 68a78a1c-25fb-40ea-b90c-318973dcc1f7)
@@ -1799,6 +1851,9 @@
   (junction (at 132.08 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 782c72fc-1edd-4e88-bd47-387fa6486b45)
   )
+  (junction (at 260.35 134.62) (diameter 0) (color 0 0 0 0)
+    (uuid 78ca827c-ab24-4667-9d3a-98370618aef9)
+  )
   (junction (at 43.18 189.23) (diameter 0) (color 0 0 0 0)
     (uuid 7a0e0461-c92e-42ea-9972-5b293088f677)
   )
@@ -1808,11 +1863,17 @@
   (junction (at 46.99 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 984e83ae-5f0d-4e70-b99d-5b176e1de582)
   )
+  (junction (at 242.57 144.78) (diameter 0) (color 0 0 0 0)
+    (uuid a609dadc-f81b-44f3-ab0c-f992aa017743)
+  )
   (junction (at 87.63 64.77) (diameter 0) (color 0 0 0 0)
     (uuid adc1ccd9-535d-4f8c-95a3-e75fc61ee55e)
   )
   (junction (at 158.75 190.5) (diameter 0) (color 0 0 0 0)
     (uuid ae92d721-71df-465b-8ef5-65ccc1c68269)
+  )
+  (junction (at 242.57 134.62) (diameter 0) (color 0 0 0 0)
+    (uuid b1d9e4f1-dd67-4ae4-8341-436fb6444ff4)
   )
   (junction (at 351.79 137.16) (diameter 0) (color 0 0 0 0)
     (uuid b435111d-8923-4dc9-921f-f12723500742)
@@ -1823,11 +1884,17 @@
   (junction (at 138.43 34.29) (diameter 0) (color 0 0 0 0)
     (uuid b5f1a6c2-f7d3-4176-a4bd-9f72f2c59ffc)
   )
+  (junction (at 264.16 144.78) (diameter 0) (color 0 0 0 0)
+    (uuid b6447c21-fa7d-4252-9db8-6cbc29e77f93)
+  )
   (junction (at 52.07 67.31) (diameter 0) (color 0 0 0 0)
     (uuid bacfc12a-2497-4f5a-8c82-cc2a6fd82bde)
   )
   (junction (at 68.58 110.49) (diameter 0) (color 0 0 0 0)
     (uuid bd567be4-6480-4d41-83a3-54abc28a3941)
+  )
+  (junction (at 251.46 144.78) (diameter 0) (color 0 0 0 0)
+    (uuid c5c87d7f-d6c4-41ff-a5eb-14d8087d4aa2)
   )
   (junction (at 46.99 189.23) (diameter 0) (color 0 0 0 0)
     (uuid ca4665dc-3180-4867-94f9-9c5188ebf556)
@@ -1946,6 +2013,10 @@
     (stroke (width 0) (type default))
     (uuid 0fd32104-6ccf-497f-b0e9-2ccdcaeb4cf8)
   )
+  (wire (pts (xy 274.32 135.89) (xy 274.32 134.62))
+    (stroke (width 0) (type default))
+    (uuid 0fddd131-7ef8-442c-a981-a08615848295)
+  )
   (wire (pts (xy 132.08 85.09) (xy 135.89 85.09))
     (stroke (width 0) (type default))
     (uuid 107d0f55-0ac9-4ad9-bfdd-e25e956db53b)
@@ -1994,9 +2065,21 @@
     (stroke (width 0) (type default))
     (uuid 1a295d02-851f-41b2-864a-316de5c21508)
   )
+  (wire (pts (xy 264.16 134.62) (xy 274.32 134.62))
+    (stroke (width 0) (type default))
+    (uuid 1b195499-e605-464c-b53f-352659353e55)
+  )
+  (wire (pts (xy 242.57 134.62) (xy 242.57 135.89))
+    (stroke (width 0) (type default))
+    (uuid 1c8d7297-7888-4515-9932-fb3a38a3d4e1)
+  )
   (wire (pts (xy 135.89 26.67) (xy 139.7 26.67))
     (stroke (width 0) (type default))
     (uuid 1c8dc77d-9fd5-4c10-91ac-1e6785ca8ca9)
+  )
+  (wire (pts (xy 264.16 134.62) (xy 264.16 135.89))
+    (stroke (width 0) (type default))
+    (uuid 1cfc6bed-8d34-467f-bf77-0bc8bc1adf0b)
   )
   (wire (pts (xy 83.82 154.94) (xy 86.36 154.94))
     (stroke (width 0) (type default))
@@ -2016,6 +2099,10 @@
     (uuid 1ea003a1-afad-4349-8183-d1443b3aa3fc)
   )
 
+  (wire (pts (xy 260.35 134.62) (xy 259.08 134.62))
+    (stroke (width 0) (type default))
+    (uuid 20bcce19-fa4b-4cef-bac3-eb3656ab10ab)
+  )
   (wire (pts (xy 158.75 52.07) (xy 162.56 52.07))
     (stroke (width 0) (type default))
     (uuid 21f7f171-2840-4a76-bf58-2241321f31f2)
@@ -2031,6 +2118,10 @@
   (wire (pts (xy 351.79 147.32) (xy 351.79 146.05))
     (stroke (width 0) (type default))
     (uuid 23966753-93d0-4ce8-9453-7a10250981ba)
+  )
+  (wire (pts (xy 251.46 144.78) (xy 242.57 144.78))
+    (stroke (width 0) (type default))
+    (uuid 2526f4d6-7ed7-443a-add2-66877ad4893e)
   )
   (wire (pts (xy 83.82 160.02) (xy 86.36 160.02))
     (stroke (width 0) (type default))
@@ -2096,6 +2187,10 @@
   (wire (pts (xy 438.15 118.11) (xy 438.15 119.38))
     (stroke (width 0) (type default))
     (uuid 404ec759-2c76-417c-b680-fd7caafcfa43)
+  )
+  (wire (pts (xy 251.46 144.78) (xy 251.46 146.05))
+    (stroke (width 0) (type default))
+    (uuid 40b2d373-f686-412b-9184-776b2a67df35)
   )
   (wire (pts (xy 241.3 77.47) (xy 242.57 77.47))
     (stroke (width 0) (type default))
@@ -2326,6 +2421,10 @@
     (stroke (width 0) (type default))
     (uuid 6d4ad89d-a66c-4cd5-b1fa-22813a89fdc9)
   )
+  (wire (pts (xy 231.14 144.78) (xy 231.14 143.51))
+    (stroke (width 0) (type default))
+    (uuid 6d6a1be0-4038-4704-8bc5-7fd67431dda8)
+  )
   (wire (pts (xy 59.69 30.48) (xy 59.69 57.15))
     (stroke (width 0) (type default))
     (uuid 6da3122a-f984-4c3f-adec-d4f887f68cbb)
@@ -2453,6 +2552,10 @@
     (uuid 88500f8b-6642-4989-8188-53af03204f49)
   )
 
+  (wire (pts (xy 231.14 134.62) (xy 242.57 134.62))
+    (stroke (width 0) (type default))
+    (uuid 889b6905-127f-4f35-8bc6-ab6343eb9bbc)
+  )
   (wire (pts (xy 171.45 179.07) (xy 171.45 180.34))
     (stroke (width 0) (type default))
     (uuid 88e0c1b0-cf41-4f5a-b320-7ceb86552666)
@@ -2568,6 +2671,10 @@
     (stroke (width 0) (type default))
     (uuid 9b1a1ef9-265b-48e2-a26d-37d68142bb94)
   )
+  (wire (pts (xy 255.27 119.38) (xy 260.35 119.38))
+    (stroke (width 0) (type default))
+    (uuid 9b9a9a6a-e82f-4508-a20b-f5c4b8289301)
+  )
   (wire (pts (xy 30.48 67.31) (xy 52.07 67.31))
     (stroke (width 0) (type default))
     (uuid 9d63582f-2ed9-417d-902a-278dbdabf873)
@@ -2576,9 +2683,17 @@
     (stroke (width 0) (type default))
     (uuid 9d998480-89ea-4afd-be68-29400c5893dd)
   )
+  (wire (pts (xy 264.16 134.62) (xy 260.35 134.62))
+    (stroke (width 0) (type default))
+    (uuid a1c955a9-7670-402b-a73a-9bbd7ab64b2c)
+  )
   (wire (pts (xy 146.05 190.5) (xy 134.62 190.5))
     (stroke (width 0) (type default))
     (uuid a1e2249f-04be-4140-bdee-ac61013f0186)
+  )
+  (wire (pts (xy 231.14 135.89) (xy 231.14 134.62))
+    (stroke (width 0) (type default))
+    (uuid a6d7af20-0600-4664-bb50-53379738fe9d)
   )
   (wire (pts (xy 379.73 137.16) (xy 379.73 138.43))
     (stroke (width 0) (type default))
@@ -2591,6 +2706,10 @@
   (wire (pts (xy 52.07 83.82) (xy 54.61 83.82))
     (stroke (width 0) (type default))
     (uuid a7afd32c-e818-4863-b370-4060774a88ac)
+  )
+  (wire (pts (xy 260.35 119.38) (xy 260.35 134.62))
+    (stroke (width 0) (type default))
+    (uuid aa6210a8-3798-4d88-b38c-2c6c8ce8cd0a)
   )
   (polyline (pts (xy 283.21 12.7) (xy 283.21 68.58))
     (stroke (width 0) (type default))
@@ -2667,6 +2786,10 @@
     (stroke (width 0) (type default))
     (uuid becc8925-6aa4-4b1f-82c1-b53cdc3c9687)
   )
+  (wire (pts (xy 274.32 143.51) (xy 274.32 144.78))
+    (stroke (width 0) (type default))
+    (uuid c008159f-4554-4c7d-9b90-651da58fe235)
+  )
   (wire (pts (xy 83.82 172.72) (xy 86.36 172.72))
     (stroke (width 0) (type default))
     (uuid c1425000-6508-4d57-a1cf-e7260e290a1c)
@@ -2675,13 +2798,25 @@
     (stroke (width 0) (type default))
     (uuid c31da904-ead1-4b11-8917-58151e7d373c)
   )
+  (wire (pts (xy 242.57 143.51) (xy 242.57 144.78))
+    (stroke (width 0) (type default))
+    (uuid c390f0da-4b6c-4c36-836d-d02a7541a70c)
+  )
   (wire (pts (xy 91.44 88.9) (xy 95.25 88.9))
     (stroke (width 0) (type default))
     (uuid c47e71e9-2496-462e-aa3c-eb6479af3a90)
   )
+  (wire (pts (xy 243.84 134.62) (xy 242.57 134.62))
+    (stroke (width 0) (type default))
+    (uuid c4832d2e-a235-4428-84b9-7cb8cac1136f)
+  )
   (wire (pts (xy 132.08 66.04) (xy 132.08 73.66))
     (stroke (width 0) (type default))
     (uuid c529c753-c7b0-4106-902b-63980b29a932)
+  )
+  (wire (pts (xy 251.46 142.24) (xy 251.46 144.78))
+    (stroke (width 0) (type default))
+    (uuid c5a962c6-e933-4caa-95e0-13de9fabec4d)
   )
   (wire (pts (xy 176.53 125.73) (xy 176.53 128.27))
     (stroke (width 0) (type default))
@@ -2699,9 +2834,17 @@
     (stroke (width 0) (type default))
     (uuid c76ddfa8-8fdc-4154-b078-c394944b8834)
   )
+  (wire (pts (xy 242.57 119.38) (xy 242.57 134.62))
+    (stroke (width 0) (type default))
+    (uuid c78ee578-d015-4a0b-9e70-163faa438737)
+  )
   (wire (pts (xy 158.75 19.05) (xy 161.29 19.05))
     (stroke (width 0) (type default))
     (uuid c86ab07d-b636-4c9f-9c7e-65fcdc56bce3)
+  )
+  (wire (pts (xy 231.14 134.62) (xy 231.14 133.35))
+    (stroke (width 0) (type default))
+    (uuid ca6efee1-4b46-4e9a-ab6a-8078547b7012)
   )
   (wire (pts (xy 83.82 124.46) (xy 86.36 124.46))
     (stroke (width 0) (type default))
@@ -2718,6 +2861,10 @@
   (wire (pts (xy 52.07 33.02) (xy 52.07 57.15))
     (stroke (width 0) (type default))
     (uuid cd1bf319-4ae9-4e9f-b624-b17656048463)
+  )
+  (wire (pts (xy 274.32 144.78) (xy 264.16 144.78))
+    (stroke (width 0) (type default))
+    (uuid cfa64a76-8ff4-43d4-a2aa-f6885cfa6d9f)
   )
   (wire (pts (xy 85.09 26.67) (xy 87.63 26.67))
     (stroke (width 0) (type default))
@@ -2793,6 +2940,10 @@
     (stroke (width 0) (type default))
     (uuid e00aa94e-52e6-4b6d-827d-b02ba898f092)
   )
+  (wire (pts (xy 264.16 144.78) (xy 251.46 144.78))
+    (stroke (width 0) (type default))
+    (uuid e0cd920b-32df-4602-9ac3-aa90d3b43ac1)
+  )
   (wire (pts (xy 138.43 44.45) (xy 140.97 44.45))
     (stroke (width 0) (type default))
     (uuid e11365f6-ba4c-499c-b79f-5ea963590269)
@@ -2825,6 +2976,10 @@
     (stroke (width 0) (type default))
     (uuid e665bc0e-d0eb-495b-b892-3054dfdf6ad0)
   )
+  (wire (pts (xy 242.57 144.78) (xy 231.14 144.78))
+    (stroke (width 0) (type default))
+    (uuid e73f32ee-7297-41e3-a486-2a403d0c57b0)
+  )
   (wire (pts (xy 161.29 139.7) (xy 157.48 139.7))
     (stroke (width 0) (type default))
     (uuid e80f338d-8a81-4612-bc1d-8cbcab65976b)
@@ -2833,6 +2988,10 @@
     (stroke (width 0) (type default))
     (uuid e9762b4c-0ed3-49a9-bae2-8f9a8300dc76)
   )
+  (wire (pts (xy 274.32 133.35) (xy 274.32 134.62))
+    (stroke (width 0) (type default))
+    (uuid e9e1d53d-77fb-4d58-8edb-96270142fe88)
+  )
   (wire (pts (xy 312.42 137.16) (xy 313.69 137.16))
     (stroke (width 0) (type default))
     (uuid eb33816a-314c-4066-b4f7-2a728634cc98)
@@ -2840,6 +2999,10 @@
   (wire (pts (xy 45.72 40.64) (xy 46.99 40.64))
     (stroke (width 0) (type default))
     (uuid eb59d77e-031a-4c3c-897f-4eba0b048b80)
+  )
+  (wire (pts (xy 247.65 119.38) (xy 242.57 119.38))
+    (stroke (width 0) (type default))
+    (uuid ebfb1632-46bd-4431-8bb4-e2639404025d)
   )
   (wire (pts (xy 46.99 189.23) (xy 46.99 146.05))
     (stroke (width 0) (type default))
@@ -2860,6 +3023,10 @@
   (wire (pts (xy 132.08 92.71) (xy 132.08 96.52))
     (stroke (width 0) (type default))
     (uuid f0fab007-a7bd-4a6f-b562-f92df15fe959)
+  )
+  (wire (pts (xy 264.16 143.51) (xy 264.16 144.78))
+    (stroke (width 0) (type default))
+    (uuid f4735e24-27ef-461d-ab13-25ff5d3771f7)
   )
   (wire (pts (xy 341.63 137.16) (xy 341.63 138.43))
     (stroke (width 0) (type default))
@@ -3353,7 +3520,7 @@
     (pin "1" (uuid 5ba88a81-efb6-49f5-be2f-ab0ce89fc5c2))
     (pin "2" (uuid 31c52811-63fb-4e0a-9851-6a2c9e381a62))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R15") (unit 1)
         )
@@ -3379,7 +3546,7 @@
     (pin "1" (uuid e9430258-6118-43f4-a058-89b58d2ed0d3))
     (pin "2" (uuid cc18c563-5918-4354-aa06-4b8344df495f))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C6") (unit 1)
         )
@@ -3405,7 +3572,7 @@
     (pin "1" (uuid 2510a1ea-dd59-471d-a960-ccd8eab9c047))
     (pin "2" (uuid d9f3abb9-0835-4c45-bd2c-5127e33b2c7f))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "D4") (unit 1)
         )
@@ -3430,7 +3597,7 @@
     )
     (pin "1" (uuid 91f2664c-d95e-47dd-b097-8ab29ebad719))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR018") (unit 1)
         )
@@ -3456,7 +3623,7 @@
     (pin "1" (uuid c74ae645-78a0-47e9-8561-8d4a97f533fd))
     (pin "2" (uuid 0018c0bc-c701-414d-a12f-b98dc9b19db8))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R20") (unit 1)
         )
@@ -3482,7 +3649,7 @@
     (pin "1" (uuid 219a086f-bf2e-483c-997e-3b8536826542))
     (pin "2" (uuid 251feb1a-7760-4c07-abc9-6baa65c7c03e))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C2") (unit 1)
         )
@@ -3507,7 +3674,7 @@
     )
     (pin "1" (uuid b1139bd1-ea69-4beb-82a2-37a5da4a3999))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR025") (unit 1)
         )
@@ -3532,7 +3699,7 @@
     )
     (pin "1" (uuid d9a0d8e5-732c-4dd5-9bc1-216b61bc6237))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR02") (unit 1)
         )
@@ -3558,9 +3725,35 @@
     (pin "1" (uuid 13c3d679-40e1-4ce9-a3b9-35e27a249b38))
     (pin "2" (uuid b0952c18-58fe-4f5b-ac52-ca38b28c96d9))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:BAT60A") (at 251.46 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 18af3a4d-5075-40f2-9874-23f908359e47)
+    (property "Reference" "D6" (at 251.46 124.46 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BAT60A" (at 251.46 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 251.46 123.825 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9" (at 251.46 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 054f7585-0e79-4edb-9d07-564848e7e3d5))
+    (pin "2" (uuid 2b505fc8-7406-44f5-a1a3-0540d1e30aa9))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3584,7 +3777,7 @@
     (pin "1" (uuid 891beaf2-b2c4-4b6d-8ca9-87786ee4adea))
     (pin "2" (uuid 4db15354-d4c7-49b7-a4a9-6096235344b2))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "D2") (unit 1)
         )
@@ -3609,7 +3802,7 @@
     )
     (pin "1" (uuid 7f2254a1-de2b-4893-bbb9-514005a55ed0))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR012") (unit 1)
         )
@@ -3634,7 +3827,7 @@
     )
     (pin "1" (uuid ad5fe187-6105-485f-953b-cdd1c24f9e38))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR08") (unit 1)
         )
@@ -3660,7 +3853,7 @@
     (pin "1" (uuid df98a607-35e8-43a1-b7a4-ac29a1f19bc2))
     (pin "2" (uuid c5f77a9c-40e1-46f9-b571-ae5369b67b80))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C11") (unit 1)
         )
@@ -3686,7 +3879,7 @@
     (pin "1" (uuid fa412227-81a7-4786-ab69-cfea341d51a1))
     (pin "2" (uuid 3d9b8c69-f1ad-49ce-9a02-efc4f8319d75))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R10") (unit 1)
         )
@@ -3712,7 +3905,7 @@
     (pin "1" (uuid ad029695-eb41-4bbf-9e48-ce77346fb3c9))
     (pin "2" (uuid a77b5c62-e8d3-46bb-bf12-491842df58f9))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "D3") (unit 1)
         )
@@ -3737,7 +3930,7 @@
     )
     (pin "1" (uuid 8af47452-84a4-4600-be79-4f1d1516e354))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR033") (unit 1)
         )
@@ -3763,7 +3956,7 @@
     (pin "1" (uuid 5a4f4aca-e52e-40e3-ad0c-087726e54375))
     (pin "2" (uuid 9c5b9d42-2748-4281-953b-f3a0eae85151))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C10") (unit 1)
         )
@@ -3789,7 +3982,7 @@
     (pin "1" (uuid 8b2c64ac-bb1f-4955-8ea7-507af9f57e65))
     (pin "2" (uuid aa4fa2be-0382-4ff1-88df-841a34973736))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C8") (unit 1)
         )
@@ -3815,7 +4008,7 @@
     (pin "1" (uuid e60329e0-7dd7-4c3b-83f9-b551c83cc731))
     (pin "2" (uuid a99bf8e1-d6ed-4025-85ba-aaafeecf03b4))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R7") (unit 1)
         )
@@ -3842,7 +4035,7 @@
     (pin "2" (uuid 0456fedd-7842-4b3e-b2df-781cdf925ee2))
     (pin "3" (uuid c0e502ac-deb7-4c85-a3a4-5e7907fe3db7))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "Q1") (unit 1)
         )
@@ -3867,7 +4060,7 @@
     )
     (pin "1" (uuid ba7b0aa4-af8a-4149-ada5-57af1ae06c8a))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR023") (unit 1)
         )
@@ -3892,7 +4085,7 @@
     )
     (pin "1" (uuid bb43fa9d-5f2f-4dbf-9051-c2c5a2667041))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR034") (unit 1)
         )
@@ -3918,7 +4111,7 @@
     (pin "1" (uuid 6fbd8c6e-fae7-4779-a7e5-421a70d2b189))
     (pin "2" (uuid 0b486ab8-a0ae-4191-a2b5-09cb60e1331d))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R13") (unit 1)
         )
@@ -3944,7 +4137,7 @@
     (pin "1" (uuid 73dfd63d-f566-4325-aab4-01f0a63378fb))
     (pin "2" (uuid 09a1b3af-2bf7-46c4-89cd-2561267c4d84))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C7") (unit 1)
         )
@@ -3970,9 +4163,34 @@
     (pin "1" (uuid 1e124e1d-b79d-4206-bcd2-7799d845f428))
     (pin "2" (uuid a515452c-7bb3-4d7f-bcf1-9c596d476d48))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 231.14 133.35 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5ad5ae4f-00fd-46db-906b-7a4b886144e3)
+    (property "Reference" "#PWR020" (at 231.14 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 231.14 128.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 231.14 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 231.14 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8c89261e-5304-4d1b-bd0b-7328161174a7))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3996,7 +4214,7 @@
     (pin "1" (uuid 87b67443-1ad4-44a0-bacb-8d5cda36694f))
     (pin "2" (uuid 42100234-69a4-447b-b20c-d2390e7dac5d))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C5") (unit 1)
         )
@@ -4021,9 +4239,61 @@
     )
     (pin "1" (uuid cd8ae0fd-dcec-405d-8dcd-6fe8819380ce))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 251.46 146.05 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 665209de-e21c-4e99-9cfd-84be0f55067e)
+    (property "Reference" "#PWR022" (at 251.46 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 251.46 151.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 251.46 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 251.46 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c7237ae6-5c3f-449e-9682-0030fb12c5c2))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Regulator_Linear:L7805") (at 251.46 134.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 68e39c5e-bdb0-4b35-8469-ac97df5a8b02)
+    (property "Reference" "U5" (at 251.46 128.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "L7805" (at 251.46 130.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 252.095 138.43 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (at 251.46 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 6bee25e4-b2df-4b1b-8174-2d8c5f31e247))
+    (pin "3" (uuid 1dcdd36d-4c54-4d8d-97ca-a131f7fd45e1))
+    (pin "1" (uuid 53680272-9412-4d14-9613-1e2efd5e906b))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -4048,7 +4318,7 @@
     (pin "2" (uuid f2a74305-e86b-4a32-9531-db3ab5d584f1))
     (pin "3" (uuid 0cf15e5f-47de-4a4e-8e74-4a8570946e86))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "Q5") (unit 1)
         )
@@ -4074,7 +4344,7 @@
     (pin "1" (uuid 7f18a627-69a5-457c-a3a6-81be6a1d2edb))
     (pin "2" (uuid 8c75b91c-623a-480b-9de0-e625e4d1768b))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C9") (unit 1)
         )
@@ -4100,7 +4370,7 @@
     (pin "1" (uuid 3a063863-a335-47a0-9b41-8aec760fc57f))
     (pin "2" (uuid 0fa06b85-e55c-42f0-ae18-bf7635d1a00e))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R18") (unit 1)
         )
@@ -4163,7 +4433,7 @@
     (pin "8" (uuid e26c5511-c976-4eec-86fd-a7ab40d97094))
     (pin "9" (uuid 422a8357-6d1a-4c15-aa16-96604a1f6770))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "U1") (unit 1)
         )
@@ -4190,7 +4460,7 @@
     (pin "2" (uuid eac17a34-192f-4e53-827a-e793f3c6c802))
     (pin "3" (uuid 2d9dc018-a4ce-428c-85dc-d9db3e13f262))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "Q6") (unit 1)
         )
@@ -4215,7 +4485,7 @@
     )
     (pin "1" (uuid 7a3cd135-2e08-4652-90c0-720f9ba16567))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR026") (unit 1)
         )
@@ -4240,7 +4510,7 @@
     )
     (pin "1" (uuid de3c7ba5-5c7d-49d8-9c93-dd4ccf128d92))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR017") (unit 1)
         )
@@ -4265,7 +4535,7 @@
     )
     (pin "1" (uuid de1f01e5-7bcd-49bb-90df-6221c366d9c3))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR013") (unit 1)
         )
@@ -4292,7 +4562,7 @@
     (pin "2" (uuid 02a37f55-cff8-400f-b597-659709d0fef5))
     (pin "3" (uuid a75b99be-4ef0-4456-8932-d434d93d60ea))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "Q2") (unit 1)
         )
@@ -4318,7 +4588,7 @@
     (pin "1" (uuid 43c99977-8f0c-45a4-aa79-b8a2d94092d0))
     (pin "2" (uuid ac471fc1-e7ae-4aeb-8457-b857c63d2ff7))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R11") (unit 1)
         )
@@ -4348,7 +4618,7 @@
     (pin "5" (uuid 7d852264-4c5a-4440-a9da-fa246e4aba42))
     (pin "6" (uuid e5c7b18f-b274-4b7e-82ea-d0858f32a949))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "D5") (unit 1)
         )
@@ -4374,7 +4644,7 @@
     (pin "1" (uuid 3fbbf07e-3fb2-404a-8273-1bb989d1062a))
     (pin "2" (uuid c20edbbd-e566-437c-87cb-ba6dedfc474d))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C1") (unit 1)
         )
@@ -4400,7 +4670,7 @@
     (pin "1" (uuid 944db22d-082a-4d3a-9e95-b14a7e9e7467))
     (pin "2" (uuid 1b70f7ba-d3f8-4716-b0eb-846dc9e25838))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R1") (unit 1)
         )
@@ -4426,7 +4696,7 @@
     (pin "1" (uuid 7e1d9030-93e0-4e50-9453-0e9c02d016c9))
     (pin "2" (uuid 3761d09c-73d4-49eb-b598-7518c3423a4d))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C12") (unit 1)
         )
@@ -4451,7 +4721,7 @@
     )
     (pin "1" (uuid 1a4b7742-7178-4e65-8f56-ad84446c23e4))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR01") (unit 1)
         )
@@ -4480,7 +4750,7 @@
     (pin "1" (uuid 28453607-1076-4f66-874b-8894cebc75c8))
     (pin "3" (uuid 3a162960-bbc1-4423-9b0f-edac0aaaa3e6))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "J5") (unit 1)
         )
@@ -4505,7 +4775,7 @@
     )
     (pin "1" (uuid 643e8749-0cb1-4b35-a732-e0924d7be0a3))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR016") (unit 1)
         )
@@ -4530,7 +4800,7 @@
     )
     (pin "1" (uuid af910be7-4fdc-42dc-b798-afce5f0c2788))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR04") (unit 1)
         )
@@ -4556,9 +4826,35 @@
     (pin "1" (uuid 502644d0-9897-4328-a99a-c6885f6c939b))
     (pin "2" (uuid 29938bf0-89f5-4692-ae36-c39f09ba269b))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "SW3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Polarized") (at 274.32 139.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9766ad4e-d7e5-42e1-aeb7-816f9ce3b271)
+    (property "Reference" "C14" (at 267.97 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 267.97 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" (at 275.2852 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 274.32 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f29cb9bf-39c9-418c-a0a6-f8863b31541c))
+    (pin "2" (uuid ff774071-7e64-4152-921f-fdf97081bb1b))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4596,7 +4892,7 @@
     (pin "8" (uuid 0b2b1a62-2b09-4c12-9e09-adf52d09c99b))
     (pin "9" (uuid d29befdc-675a-4174-8d9d-794481b22f12))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "U2") (unit 1)
         )
@@ -4622,7 +4918,7 @@
     (pin "1" (uuid 25f699da-3210-44c0-978a-7e3375f3379b))
     (pin "2" (uuid 98895a37-ec66-4b1b-9e26-12ddb8775623))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R9") (unit 1)
         )
@@ -4648,7 +4944,7 @@
     (pin "1" (uuid 578a7f71-2098-40aa-a0a8-c8598e80de92))
     (pin "2" (uuid 4ac14747-6086-4a3d-887e-72347caf65d1))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R3") (unit 1)
         )
@@ -4673,7 +4969,7 @@
     )
     (pin "1" (uuid b65ffa0e-0066-42d1-ae3f-631e5a1bbb56))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR015") (unit 1)
         )
@@ -4699,7 +4995,7 @@
     (pin "1" (uuid 11eb9366-7a9c-499b-87f7-4e357066e726))
     (pin "2" (uuid 7d5c9921-3178-4e38-bf05-bd8e0be5a822))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R12") (unit 1)
         )
@@ -4724,7 +5020,7 @@
     )
     (pin "1" (uuid 9431dfab-4c32-4451-baa3-2927f8544520))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR014") (unit 1)
         )
@@ -4750,7 +5046,7 @@
     (pin "1" (uuid 61e883eb-ce4b-448a-8730-c5029fda83de))
     (pin "2" (uuid 6d1a90a1-c57e-43ea-b740-49f0de3f5b46))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C3") (unit 1)
         )
@@ -4777,9 +5073,35 @@
     (pin "1" (uuid 050b55cd-b8e4-480a-a0cf-5003539122ff))
     (pin "2" (uuid b11b067c-ac22-450f-ae71-a72e7a94a89e))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "U4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 242.57 139.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a734f83f-7c5a-4441-96fe-04ff5b8a9384)
+    (property "Reference" "C15" (at 236.22 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 234.95 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 243.5352 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 242.57 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 903d9deb-c236-4a11-80f0-c908c40da62f))
+    (pin "2" (uuid 6992b8bd-ebcf-4461-af88-4910a176d9d5))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4803,7 +5125,7 @@
     (pin "2" (uuid 9a87e73b-9eff-4b28-9d01-f81f611199df))
     (pin "1" (uuid b5427068-a312-463d-9964-60d12f71c67f))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "J6") (unit 1)
         )
@@ -4829,7 +5151,7 @@
     (pin "1" (uuid 83f2b428-80a4-4ea4-9d96-a0f0e687d7db))
     (pin "2" (uuid 9041f5d5-c98b-4ed1-9698-88cae8e88e3f))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R8") (unit 1)
         )
@@ -4854,7 +5176,7 @@
     )
     (pin "1" (uuid 4b1a1cac-8360-4e55-a1b8-001596994c15))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR011") (unit 1)
         )
@@ -4880,7 +5202,7 @@
     (pin "1" (uuid b877551e-3760-4a7f-92c7-95e2db838822))
     (pin "2" (uuid 5a5b35bc-6582-472a-8e66-1de7d4d93f8b))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "C4") (unit 1)
         )
@@ -4906,7 +5228,7 @@
     (pin "1" (uuid 89d91175-7086-41c5-800a-3f7ac5b706a1))
     (pin "2" (uuid 7f475bf5-cc01-49ab-9ced-bdaf464047ad))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R2") (unit 1)
         )
@@ -4931,7 +5253,7 @@
     )
     (pin "1" (uuid d4054078-bf0f-4999-acb2-e1666ad37f5f))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR07") (unit 1)
         )
@@ -4956,9 +5278,34 @@
     )
     (pin "1" (uuid 0659c979-4559-4fd9-ba0c-1617ad878a31))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 274.32 133.35 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c049eb16-07c0-4a95-b315-d64a69519090)
+    (property "Reference" "#PWR021" (at 274.32 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 274.32 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 274.32 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 274.32 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c0d3cd01-bff8-48c0-8bcd-d79892aa3ad5))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4983,7 +5330,7 @@
     (pin "2" (uuid 00731a6b-396b-40a7-9695-902f0e850ef0))
     (pin "3" (uuid b6d1bfcb-f942-4fc6-8d1b-66d0789f32c9))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "Q4") (unit 1)
         )
@@ -5008,9 +5355,35 @@
     )
     (pin "1" (uuid cfb4b496-f9c8-4144-bf32-a7d516f17f5c))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Polarized") (at 231.14 139.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c5995c54-556e-4a14-8a97-34a8a9e8c829)
+    (property "Reference" "C13" (at 224.79 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 224.79 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" (at 232.1052 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 231.14 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 64242fb1-602a-4fc7-a8d8-b4558716cc54))
+    (pin "2" (uuid 23103baa-38f1-47fb-b0a4-e5953299eac5))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -5035,7 +5408,7 @@
     (pin "2" (uuid 63330e56-81e9-4c0b-8de4-da0235c91f92))
     (pin "3" (uuid e08aa4b0-dc02-47cc-8a07-32688f1e4f0c))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "Q3") (unit 1)
         )
@@ -5061,7 +5434,7 @@
     (pin "1" (uuid ba9ccca0-9201-4e7e-9202-72cb9fa0cae9))
     (pin "2" (uuid da9c6e94-b4db-417f-aa12-280cd5329bff))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R14") (unit 1)
         )
@@ -5086,7 +5459,7 @@
     )
     (pin "1" (uuid bf69bdcf-b088-4135-9c27-fa9f4b6e4f8f))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR010") (unit 1)
         )
@@ -5112,7 +5485,7 @@
     (pin "1" (uuid 1d32bedc-260c-4f1f-ac3e-823148e71476))
     (pin "2" (uuid 4871c039-f7ed-4b17-95e4-8c7effce9c33))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R6") (unit 1)
         )
@@ -5137,7 +5510,7 @@
     )
     (pin "1" (uuid c7f1797c-069a-41ab-a057-82b4a2f6c2b9))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR06") (unit 1)
         )
@@ -5163,7 +5536,7 @@
     (pin "1" (uuid 438862f5-45cd-45cf-965c-be358875783a))
     (pin "2" (uuid aeba146e-edc3-4da0-9739-44bd8bb1115d))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "SW1") (unit 1)
         )
@@ -5189,7 +5562,7 @@
     (pin "1" (uuid fc255680-472a-4825-a79a-4764c96338c8))
     (pin "2" (uuid 061299e9-44a1-4e1b-9a42-430c0f22bc00))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R17") (unit 1)
         )
@@ -5216,7 +5589,7 @@
     (pin "2" (uuid 078cdaf4-1b68-4279-9997-52b4b1bfafde))
     (pin "3" (uuid f6ff6c0e-df34-4605-9b15-4f7e0df098ea))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "U3") (unit 1)
         )
@@ -5242,7 +5615,7 @@
     (pin "1" (uuid d7fc46d3-cab3-4a81-a06a-5f11107dff9a))
     (pin "2" (uuid c9a0b554-22db-4a1f-95ea-e4351ce79cc8))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R5") (unit 1)
         )
@@ -5268,7 +5641,7 @@
     (pin "1" (uuid 9ec0ccee-f015-46f3-b69f-a6b8f19c0a27))
     (pin "2" (uuid 14a9b860-0637-4423-971e-d938333ec4a3))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "SW2") (unit 1)
         )
@@ -5293,7 +5666,7 @@
     )
     (pin "1" (uuid d377b9d2-5f2a-4b35-8e69-7dff8b686758))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR05") (unit 1)
         )
@@ -5319,7 +5692,7 @@
     (pin "1" (uuid 20518da7-b9dd-4e7d-afce-1ebf0060e4ae))
     (pin "2" (uuid fa32958a-51b8-4c52-9749-6a73533dfa4b))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "R16") (unit 1)
         )
@@ -5344,9 +5717,35 @@
     )
     (pin "1" (uuid caa5c4ae-952a-4512-a739-b3abe8f1ed0a))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "#PWR019") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 264.16 139.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fcbc48a7-c442-4490-a5ba-56fe088d2b5b)
+    (property "Reference" "C16" (at 257.81 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 256.54 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 265.1252 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 264.16 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dfb35ec2-444c-4324-9f03-3ef5da1ce534))
+    (pin "2" (uuid efb6e03d-af30-4e2c-bbea-205fd6e1aece))
+    (instances
+      (project "WLED_Controller_PWM"
+        (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -5385,7 +5784,7 @@
     (pin "B9" (uuid 97abd589-c9d5-405a-975c-7023aa6ba903))
     (pin "S1" (uuid 265d7473-5e73-4c4c-bc1b-d67d957e9fc3))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "J1") (unit 1)
         )
@@ -5411,7 +5810,7 @@
     (pin "1" (uuid cda0d51a-a3a1-4901-b6fe-d57bad9fad64))
     (pin "2" (uuid e537e03e-9662-47d5-b141-159b81f92617))
     (instances
-      (project "WLED_Controller"
+      (project "WLED_Controller_PWM"
         (path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
           (reference "D1") (unit 1)
         )
