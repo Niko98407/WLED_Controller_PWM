@@ -11476,7 +11476,7 @@
 		(fields_autoplaced yes)
 		(uuid "69150db4-8513-44d0-aa33-5ddb13a39283")
 		(property "Reference" "Q5"
-			(at 402.59 135.89 0)
+			(at 402.59 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,8 +11484,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFL4105PBF"
-			(at 402.59 138.43 0)
+		(property "Value" "IRLL2705"
+			(at 402.59 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +11866,7 @@
 		(fields_autoplaced yes)
 		(uuid "7417e47a-09ff-4ed3-bf7b-32321940df89")
 		(property "Reference" "Q6"
-			(at 440.69 135.89 0)
+			(at 440.69 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11874,8 +11874,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFL4105PBF"
-			(at 440.69 138.43 0)
+		(property "Value" "IRLL2705"
+			(at 440.69 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +14170,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b3cf94-8ce1-403d-a10e-d77b6f2eccb9")
 		(property "Reference" "Q4"
-			(at 364.49 135.89 0)
+			(at 364.49 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14178,8 +14178,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFL4105PBF"
-			(at 364.49 138.43 0)
+		(property "Value" "IRLL2705"
+			(at 364.49 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14380,7 +14380,7 @@
 		(fields_autoplaced yes)
 		(uuid "c60227b1-f832-4857-b4a3-2b47093df705")
 		(property "Reference" "Q3"
-			(at 326.39 135.89 0)
+			(at 326.39 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14388,8 +14388,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFL4105PBF"
-			(at 326.39 138.43 0)
+		(property "Value" "IRLL2705"
+			(at 326.39 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)

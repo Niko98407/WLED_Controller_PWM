@@ -232,7 +232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -244,7 +244,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -256,7 +256,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*SOD?323*")
 		(path "/18af3a4d-5075-40f2-9874-23f908359e47")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -524,7 +526,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -536,7 +538,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/430cb54a-1d9d-49bf-8896-d446c9b52d25")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -732,7 +736,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -744,7 +748,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b18a96c3-94a7-498a-8ffc-68409b9d4912")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -928,7 +934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -940,7 +946,7 @@
 				)
 			)
 		)
-		(property "Description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -952,7 +958,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "ESP32?WROOM?32*")
 		(path "/7269455c-5679-4862-8e52-5831601022ac")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1886,7 +1894,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1898,7 +1906,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/aeab8452-3a9e-4436-8015-cccf23ce6257")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -2076,7 +2086,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2088,7 +2098,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/c5995c54-556e-4a14-8a97-34a8a9e8c829")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2304,7 +2316,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2316,7 +2328,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d88548b8-3ca7-4ded-980d-b918bb4ca725")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2512,7 +2526,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2524,7 +2538,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8ae60bf5-1f10-4dfd-95ff-0199a6d696d3")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -2834,7 +2850,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2846,7 +2862,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/c6936df5-e1dd-4a18-9168-f67bc50ae78e")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3042,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3054,7 +3072,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/84f0f1fd-6129-4481-a585-a8a4466c1174")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3250,7 +3270,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3262,7 +3282,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7fae2ad4-3efd-40df-aa58-586ec5907c78")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3446,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3458,7 +3480,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3470,7 +3492,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/ea247839-9879-4c21-8b44-916c6895312f")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3714,7 +3738,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3726,7 +3750,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/9766ad4e-d7e5-42e1-aeb7-816f9ce3b271")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3942,7 +3968,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3954,7 +3980,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/26909fce-dd16-435a-98bf-0e208f2d818f")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4170,7 +4198,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4182,7 +4210,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/3ce776c0-c5e3-4584-a64d-ff181bd2f2dc")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4343,7 +4373,7 @@
 				)
 			)
 		)
-		(property "Value" "IRFL4105PBF"
+		(property "Value" "IRLL2705"
 			(at 0 4.5 0)
 			(layer "F.Fab")
 			(uuid "5c3f2907-83ed-4f67-bb83-82193edd31c6")
@@ -4366,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4378,7 +4408,7 @@
 				)
 			)
 		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4390,7 +4420,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/7417e47a-09ff-4ed3-bf7b-32321940df89")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4631,7 +4663,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4643,7 +4675,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9fb7de18-6551-4769-90e6-fcf4ee3b220c")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4839,7 +4873,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4851,7 +4885,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/a40b9824-40e6-4206-8081-7ba47d50ed0d")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5055,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5067,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5079,7 +5115,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*SOD?323*")
 		(path "/2ff46d47-bf85-4f87-a795-60dcde68aa1b")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5347,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5359,7 +5397,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ebc095be-dfa0-4466-b9b8-9f2403772f88")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5555,7 +5595,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5568,6 +5608,7 @@
 			)
 		)
 		(path "/973e581b-32d8-436f-9fed-ce421e4afe81")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5910,7 +5951,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5922,7 +5963,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1b101c52-5189-4620-9bcb-8f06967781b4")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6140,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6153,6 +6196,7 @@
 			)
 		)
 		(path "/ed29c1fa-013e-4383-a6b7-b9030c8834a0")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6399,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6411,7 +6455,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b03ac58e-8101-4e7f-a1c7-a280016ecf28")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6607,7 +6653,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6619,7 +6665,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/fcbc48a7-c442-4490-a5ba-56fe088d2b5b")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6815,7 +6863,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6827,7 +6875,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/f2493e2f-2769-4b43-9cac-e025dd2c5718")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7023,7 +7073,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7035,7 +7085,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/56bbd362-9776-4e48-90db-2d3b7afde3c3")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7231,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7243,7 +7295,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9d9aa278-f93b-4071-934b-5c9442cb1407")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7439,7 +7493,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7451,7 +7505,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0b1a18c4-a242-4d91-bb55-f18a50e8b863")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7634,7 +7690,7 @@
 				)
 			)
 		)
-		(property "Value" "IRFL4105PBF"
+		(property "Value" "IRLL2705"
 			(at 0 4.5 0)
 			(layer "F.Fab")
 			(uuid "43464d04-c4db-478d-9540-65a9a8753f97")
@@ -7657,7 +7713,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7669,7 +7725,7 @@
 				)
 			)
 		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7681,7 +7737,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/69150db4-8513-44d0-aa33-5ddb13a39283")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7922,7 +7980,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7934,7 +7992,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6c8022a0-9737-4b28-b456-8f9299d139ad")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8118,7 +8178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8130,7 +8190,7 @@
 				)
 			)
 		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8142,7 +8202,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?252* TO?263* TO?220*")
 		(path "/68e39c5e-bdb0-4b35-8469-ac97df5a8b02")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8570,7 +8632,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8582,7 +8644,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fe624324-be5f-42c0-b3c5-53ccb1554df8")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8788,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/82462/tsop581.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8800,7 +8864,7 @@
 				)
 			)
 		)
-		(property "Description" "Photo Modules for PCM Remote Control Systems"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8812,7 +8876,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Vishay*MINICAST*")
 		(path "/a410f1f5-22bb-413a-a91a-8c83dd344286")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9035,7 +9101,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9047,7 +9113,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/6b6d02f2-e993-472a-ab3f-cb91cedc6291")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9243,7 +9311,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9255,7 +9323,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/507bb5e8-cc41-405b-94bf-7ff1dba8c7c5")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9439,7 +9509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9451,7 +9521,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9463,7 +9533,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/fdee4bc7-1bef-49d9-88f4-a5ef9e0b410b")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9873,7 +9945,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9885,7 +9957,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/019042a5-6361-41e2-ad49-95e746f35c25")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10046,7 +10120,7 @@
 				)
 			)
 		)
-		(property "Value" "IRFL4105PBF"
+		(property "Value" "IRLL2705"
 			(at 0 4.5 0)
 			(layer "F.Fab")
 			(uuid "6f67ea0b-c366-4796-ac78-73dcaf788908")
@@ -10069,7 +10143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10081,7 +10155,7 @@
 				)
 			)
 		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10093,7 +10167,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/c60227b1-f832-4857-b4a3-2b47093df705")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10334,7 +10410,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10346,7 +10422,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/03bb8076-bc6f-4542-8165-e79bac692e9e")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10562,7 +10640,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10574,7 +10652,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/aebef15e-18f5-4407-9236-c71cda9eea0b")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10770,7 +10850,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10782,7 +10862,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/0f953b3d-b01b-42f8-b76d-750d28dd07de")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10998,7 +11080,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11010,7 +11092,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0dff769d-8091-4218-b46a-8ff6ec2c0ed5")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11206,7 +11290,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11218,7 +11302,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7c6c8af9-feb0-42dc-98ac-9c118a2b4884")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11414,7 +11500,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11426,7 +11512,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7f6423ba-dbc9-4930-8485-092b4b5ade60")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11623,7 +11711,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11636,6 +11724,7 @@
 			)
 		)
 		(path "/de927063-10c0-4982-ae9f-62069704a821")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11847,7 +11936,7 @@
 				)
 			)
 		)
-		(property "Value" "IRFL4105PBF"
+		(property "Value" "IRLL2705"
 			(at 0 4.5 0)
 			(layer "F.Fab")
 			(uuid "9270c74c-a729-412d-9665-2d48adb53647")
@@ -11870,7 +11959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11882,7 +11971,7 @@
 				)
 			)
 		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11894,7 +11983,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/c2b3cf94-8ce1-403d-a10e-d77b6f2eccb9")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12135,7 +12226,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12147,7 +12238,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4d6536cc-c747-44b8-a670-006531d3ed39")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12343,7 +12436,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12355,7 +12448,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/3d491074-67c8-4ace-9932-cc663f38f848")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12564,6 +12659,7 @@
 			)
 		)
 		(path "/7d1f5952-8771-4e04-a7cc-bb3cdbccee95")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr through_hole)
 		(fp_circle
@@ -12719,7 +12815,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12731,7 +12827,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e0b98399-661a-4835-91d2-9965507ed227")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12927,7 +13025,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12939,7 +13037,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a734f83f-7c5a-4441-96fe-04ff5b8a9384")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13137,7 +13237,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13149,7 +13249,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9b2ce959-97bd-49c2-ad39-bb80183e5931")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13336,7 +13438,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13348,7 +13450,7 @@
 				)
 			)
 		)
-		(property "Description" "USB serial converter, UART, SOIC-16"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13360,7 +13462,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOIC*3.9x9.9mm*P1.27mm*")
 		(path "/9a62529b-3dd1-47a8-98df-4accb147fe3b")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13719,7 +13823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13731,7 +13835,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13743,7 +13847,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/4514942e-a7ae-4ed0-a004-2ef6eee33de1")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13984,7 +14090,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13996,7 +14102,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/2ec2e992-b7d8-46c2-9b29-c1c9c833d7af")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14183,7 +14291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14195,7 +14303,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14207,7 +14315,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/7a6a8ac1-3c0e-4a63-ae7b-d37ab7def6ae")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14448,7 +14558,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14460,7 +14570,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5d59ae50-ae62-458f-932b-be26957a1aab")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14659,7 +14771,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14671,7 +14783,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/16f7ef06-1473-494e-b9db-a0f5da6ff6a6")
+		(sheetname "Stammblatt")
 		(sheetfile "WLED_Controller_PWM.kicad_sch")
 		(attr smd)
 		(fp_line
