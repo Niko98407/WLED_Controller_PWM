@@ -4930,6 +4930,18 @@
 		(uuid "11e819c6-ff02-4e1a-9791-15eac397d486")
 	)
 	(junction
+		(at 429.26 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13734902-4f39-4f7c-ae49-ec6b193ec5ea")
+	)
+	(junction
+		(at 360.68 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1402ade6-e7f7-48db-a8b6-45bc9edf9fd7")
+	)
+	(junction
 		(at 264.16 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4952,6 +4964,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b4f7d06-925e-4ebc-bb78-854dd29d1bb1")
+	)
+	(junction
+		(at 322.58 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f1e6826-2c8c-4d5f-99d8-01f88b55bdbb")
+	)
+	(junction
+		(at 360.68 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ff49090-d535-4071-9bb3-ab4e6036c89e")
+	)
+	(junction
+		(at 353.06 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2178dacb-b1b9-4412-9dc3-e1169192f3af")
 	)
 	(junction
 		(at 119.38 179.07)
@@ -5020,6 +5050,12 @@
 		(uuid "44a3dce4-88b4-4e00-940f-94fd555f508a")
 	)
 	(junction
+		(at 398.78 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50f12bb4-57b6-48fb-8d0c-71663b2c5783")
+	)
+	(junction
 		(at 86.36 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5036,6 +5072,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a78a1c-25fb-40ea-b90c-318973dcc1f7")
+	)
+	(junction
+		(at 436.88 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6947a1f3-23fe-40ed-ac2b-6c1bff1ad5f9")
 	)
 	(junction
 		(at 119.38 190.5)
@@ -5078,6 +5120,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a0e0461-c92e-42ea-9972-5b293088f677")
+	)
+	(junction
+		(at 436.88 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "912b7a32-9f4e-498d-bb35-a10eda9039fc")
 	)
 	(junction
 		(at 31.75 176.53)
@@ -5140,6 +5188,18 @@
 		(uuid "b6447c21-fa7d-4252-9db8-6cbc29e77f93")
 	)
 	(junction
+		(at 398.78 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6d566b4-9b63-422c-8b58-03583122dfab")
+	)
+	(junction
+		(at 314.96 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6dfd5ca-42a0-4dfe-9de8-318389965dad")
+	)
+	(junction
 		(at 52.07 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5170,10 +5230,22 @@
 		(uuid "cd5d5248-bbdf-4121-b7f2-4d876426c0a5")
 	)
 	(junction
+		(at 391.16 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d35e8935-3616-4cf1-bb29-8158bcd4018a")
+	)
+	(junction
 		(at 157.48 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9794417-df77-455a-84eb-139b92668e4d")
+	)
+	(junction
+		(at 322.58 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d97aa83f-d58a-4121-93e6-ed2f9f7b482f")
 	)
 	(junction
 		(at 31.75 189.23)
@@ -5807,6 +5879,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 137.16) (xy 314.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f81539-51a2-4b22-a04f-5b5471c75e96")
+	)
+	(wire
+		(pts
 			(xy 46.99 189.23) (xy 68.58 189.23)
 		)
 		(stroke
@@ -5984,6 +6066,16 @@
 			(type default)
 		)
 		(uuid "4705c6db-103f-44e7-a483-2451db8bab9d")
+	)
+	(wire
+		(pts
+			(xy 360.68 142.24) (xy 363.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e33fc2-5a64-4e6d-9528-8072aeac1347")
 	)
 	(wire
 		(pts
@@ -6417,6 +6509,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 132.08) (xy 322.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa56f58-3af9-4606-a600-eec43134a6d9")
+	)
+	(wire
+		(pts
 			(xy 241.3 82.55) (xy 245.11 82.55)
 		)
 		(stroke
@@ -6497,6 +6599,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 137.16) (xy 393.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709b4ef6-209f-446c-826d-dc68e8e3e3c5")
+	)
+	(wire
+		(pts
 			(xy 148.59 73.66) (xy 148.59 66.04)
 		)
 		(stroke
@@ -6554,6 +6666,16 @@
 			(type default)
 		)
 		(uuid "76c41336-bbf5-4800-b202-829a3666c525")
+	)
+	(wire
+		(pts
+			(xy 431.8 137.16) (xy 429.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c72782-8e4a-43ba-8ff4-8b19e7af6edb")
 	)
 	(wire
 		(pts
@@ -6725,6 +6847,16 @@
 		)
 		(uuid "814b63c6-d102-49f0-a54f-6baf2186763c")
 	)
+	(wire
+		(pts
+			(xy 398.78 132.08) (xy 401.32 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fd1fd0-03ef-4487-9ad5-5d9e53f19e69")
+	)
 	(polyline
 		(pts
 			(xy 116.84 12.7) (xy 63.5 12.7)
@@ -6834,6 +6966,16 @@
 			(type default)
 		)
 		(uuid "8b341469-14b7-4280-84f7-fc5b5c9861a7")
+	)
+	(wire
+		(pts
+			(xy 360.68 132.08) (xy 363.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b523449-c81f-4742-b6fa-ee68ece384fa")
 	)
 	(wire
 		(pts
@@ -7107,6 +7249,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 137.16) (xy 355.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5800bb0-8029-41b7-a9dd-01b96256b644")
+	)
+	(wire
+		(pts
 			(xy 231.14 135.89) (xy 231.14 134.62)
 		)
 		(stroke
@@ -7257,6 +7409,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 142.24) (xy 322.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b82157-2663-4eb2-b927-e5f3ea7845a9")
+	)
+	(wire
+		(pts
 			(xy 31.75 189.23) (xy 43.18 189.23)
 		)
 		(stroke
@@ -7284,6 +7446,26 @@
 			(type default)
 		)
 		(uuid "b9787fbb-ef92-44dc-9045-4b78b1d6d885")
+	)
+	(wire
+		(pts
+			(xy 398.78 142.24) (xy 401.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ba84a4-d174-41fd-9c2f-639acb65139d")
+	)
+	(wire
+		(pts
+			(xy 439.42 142.24) (xy 436.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9de3f79-df21-4ede-abff-2da9af4ccbe7")
 	)
 	(wire
 		(pts
@@ -8024,6 +8206,16 @@
 			(type default)
 		)
 		(uuid "fb470083-a2ce-4539-9799-cc7f130afb6b")
+	)
+	(wire
+		(pts
+			(xy 439.42 132.08) (xy 436.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb887743-2b8c-4949-af6f-ef78f28ef214")
 	)
 	(wire
 		(pts
@@ -11467,7 +11659,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 396.24 137.16 0)
+		(at 398.78 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11476,7 +11668,7 @@
 		(fields_autoplaced yes)
 		(uuid "69150db4-8513-44d0-aa33-5ddb13a39283")
 		(property "Reference" "Q5"
-			(at 402.59 135.8899 0)
+			(at 405.13 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,7 +11677,7 @@
 			)
 		)
 		(property "Value" "IRLL2705"
-			(at 402.59 138.4299 0)
+			(at 405.13 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +11686,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-			(at 401.32 139.065 0)
+			(at 403.86 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +11697,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 401.32 140.97 0)
+			(at 403.86 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11515,7 +11707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 396.24 137.16 0)
+			(at 398.78 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11857,16 +12049,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 434.34 137.16 0)
+		(at 436.88 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7417e47a-09ff-4ed3-bf7b-32321940df89")
 		(property "Reference" "Q6"
-			(at 440.69 135.8899 0)
+			(at 441.706 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11875,7 +12066,7 @@
 			)
 		)
 		(property "Value" "IRLL2705"
-			(at 440.69 138.4299 0)
+			(at 441.706 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11884,7 +12075,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-			(at 439.42 139.065 0)
+			(at 441.96 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11895,7 +12086,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 439.42 140.97 0)
+			(at 441.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +12096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 434.34 137.16 0)
+			(at 436.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13625,6 +13816,156 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 358.14 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a7578d63-69e5-4ac6-9e5e-cc87164bada8")
+		(property "Reference" "Q8"
+			(at 361.95 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 361.95 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 363.22 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 363.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 358.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d6bedf11-32cd-4616-83c0-cd819cb0b93f")
+		)
+		(pin "2"
+			(uuid "642482a9-fb13-45b8-bf6c-d0623107f5bd")
+		)
+		(pin "1"
+			(uuid "01bc256e-7a5f-41e6-84cb-f277ec6dd831")
+		)
+		(instances
+			(project "WLED_Controller_PWM"
+				(path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 396.24 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "aca41483-5193-403d-8195-3b0334d54e7e")
+		(property "Reference" "Q9"
+			(at 400.05 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 400.05 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 401.32 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 401.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 396.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3241e478-ba01-4878-b27a-ed88d0c39ae8")
+		)
+		(pin "2"
+			(uuid "dd4a4ab5-71f5-429f-af21-f271329ce74e")
+		)
+		(pin "1"
+			(uuid "0a8dcaad-f6af-49d2-93c4-7fdf3c9bfc09")
+		)
+		(instances
+			(project "WLED_Controller_PWM"
+				(path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 125.73 134.62 0)
 		(unit 1)
@@ -14161,7 +14502,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 358.14 137.16 0)
+		(at 360.68 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14170,7 +14511,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b3cf94-8ce1-403d-a10e-d77b6f2eccb9")
 		(property "Reference" "Q4"
-			(at 364.49 135.8899 0)
+			(at 367.03 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14179,7 +14520,7 @@
 			)
 		)
 		(property "Value" "IRLL2705"
-			(at 364.49 138.4299 0)
+			(at 367.03 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,7 +14529,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-			(at 363.22 139.065 0)
+			(at 365.76 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14199,7 +14540,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 363.22 140.97 0)
+			(at 365.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +14550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 358.14 137.16 0)
+			(at 360.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14371,7 +14712,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 320.04 137.16 0)
+		(at 322.58 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14380,7 +14721,7 @@
 		(fields_autoplaced yes)
 		(uuid "c60227b1-f832-4857-b4a3-2b47093df705")
 		(property "Reference" "Q3"
-			(at 326.39 135.8899 0)
+			(at 328.93 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,7 +14730,7 @@
 			)
 		)
 		(property "Value" "IRLL2705"
-			(at 326.39 138.4299 0)
+			(at 328.93 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +14739,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-			(at 325.12 139.065 0)
+			(at 327.66 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14409,7 +14750,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 325.12 140.97 0)
+			(at 327.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14419,7 +14760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.04 137.16 0)
+			(at 322.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14507,6 +14848,81 @@
 			(project "WLED_Controller_PWM"
 				(path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 320.04 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ca973461-49e4-4e0b-a047-7adfdbf02d64")
+		(property "Reference" "Q7"
+			(at 323.85 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 324.104 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 325.12 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 325.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 320.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1a3900fb-01fe-4630-9813-4cd2a84b1a2e")
+		)
+		(pin "2"
+			(uuid "d7bee8b9-b480-4047-b85c-5b25769a35ec")
+		)
+		(pin "1"
+			(uuid "a7202362-001e-40c2-9cc9-949aca711df6")
+		)
+		(instances
+			(project "WLED_Controller_PWM"
+				(path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -15050,6 +15466,81 @@
 			(project "WLED_Controller_PWM"
 				(path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 434.34 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ed8a575e-c802-4d77-9091-931883e065b1")
+		(property "Reference" "Q10"
+			(at 448.564 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 448.564 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 439.42 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 439.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 434.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8a7ce44f-b0df-4cab-8096-e091cd46c67f")
+		)
+		(pin "2"
+			(uuid "b0304ba2-468b-40c9-a6fb-75224c2ff7ff")
+		)
+		(pin "1"
+			(uuid "6b1254d8-4a61-44ed-8f72-c30f13dbb978")
+		)
+		(instances
+			(project "WLED_Controller_PWM"
+				(path "/61a8f172-4884-44e5-9956-1f3f8e133bda"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
